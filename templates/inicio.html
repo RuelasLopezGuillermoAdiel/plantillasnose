@@ -1,0 +1,73 @@
+{% extends "index.html"%}
+    {%block contenido%}
+    <link rel="stylesheet" href="style.css">
+    <h1 id="h1">Inicio De Secion</h1>
+    <table border="0" id="tablas">
+        <fieldset id="fieldset">
+        <div class="container">
+        <h2>CREA UNA CUENTA</h2>
+        <p id="esfacil">es fácil y rápido.</p>
+        <div class="underline"></div>
+        </div>
+        <form>
+        <input type="text" placeholder="nombre" id="nombre">
+        <input type="text" placeholder="apellidos" id="apellidos"><br>
+        <label for="">fecha de nacimiento ?</label><br>
+        <select>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+    <option value="">6</option>
+    <option value="">7</option>
+    <option value="">8</option>
+    <option value="">9</option>
+    <option value="">10</option>
+    <option value="">11</option>
+    <option value="">12</option>
+    <option value="">13</option>
+    <option value="">14</option>
+    <option value="">15</option>
+    <option value="">16</option>
+    <option value="">17</option>
+    <option value="">18</option>
+    <option value="">19</option>
+    <option value="">20</option>
+        </select>
+        <select>
+            <option value="">Enero</option>
+            <option value="">Febrero</option>
+            <option value="">marzo</option>
+            <option value="">abril</option>
+            <option value="">mayo</option>
+            <option value="">junio</option>
+            <option value="">julio</option>
+            <option value="">agosto</option>
+            <option value="">septiembre</option>
+            <option value="">octubre</option>
+            <option value="">noviembre</option>
+            <option value="">diciembre</option>
+        </select>
+        <select>
+            <option value="">2025</option>
+            <option value="">2024</option>
+            <option value="">2023</option>
+            <option value="">2022</option>
+            <option value="">2021</option>
+            <option value="">2020</option>
+        </select><br>
+        <label for="">genero ?</label><br>
+        <input type="radio" name="Sexo">Masculino
+        <input type="radio" name="Sexo">Femenino
+        <input type="radio" name="Sexo">Personalizado<br>
+        <input type="text" placeholder="Numero de celular o correo electronico" id="numero"><br><br>
+        <input type="text" placeholder="Contraseña nueva" id="contraseña">
+        <h6>Es posible que las personas que usan nuestro servicio hayan subido tu información de contacto a Facebook. <span class="highlight">mas informacion</span></h6>
+        <h6>hacer clic en "Registrarte", aceptas nuestras Condiciones, la Política de privacidad y la Política de cookies. Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</h6>
+        <input type="button" placeholder="Registrate" id="boton">
+        <p>ya tienes una cuenta?</p>
+    </fieldset>
+    </form>
+    </table>
+    {% endblock %}

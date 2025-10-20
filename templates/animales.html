@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+ <link rel="stylesheet" href="style.css">
+
+    {% extends "index.html"%}
+    {%block contenido%}
 <div class="parallax">
         <h1>Animales Exoticos</h1>
 </div>
@@ -44,5 +39,5 @@
 <h2>suricata</h2>
 <p style="font-size: 16px;">En las áridas sabanas de África, encontramos a las suricatas, pequeños mamíferos que viven en grupos organizados, conocidos por su conducta social altamente estructurada. Se alimentan principalmente de insectos, pero también consumen pequeños reptiles y frutas. Lo más sorprendente de las suricatas es su vigilancia constante: uno de ellos se encarga de vigilar el horizonte para alertar a la manada de la llegada de depredadores. Cuando no están de guardia, las suricatas se agrupan en grandes túneles subterráneos que excavan para protegerse del calor.</p>
 <img src="static/img/suricata.jpg">
-</body>
-</html>
+{% endblock %}
+
